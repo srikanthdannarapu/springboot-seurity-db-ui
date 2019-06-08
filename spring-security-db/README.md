@@ -9,18 +9,18 @@ This example covers the following:
 
 http://localhost:8080/rest/hello/all
 
-![hello all accessed by every one](img/helloall.png "Hello all")
+![hello all accessed by every one](img/helloall.PNG "Hello all")
 
 
 http://localhost:8080/rest/hello/secured/all
 
-![secured all accessed by users with admin role](img/secured-all.png "secured all")
+![secured all accessed by users with admin role](img/secured-all.PNG "secured all")
 username - Sam (with ADMIN Role)
 password - sam
 
 
-![secured all accessed by Sam](img/secured-all-success.png "secured all")
+![secured all accessed by Sam](img/secured-all-success.PNG "secured all")
 
 user youtube/youtube will not be able to login and he will see error page
 
-![secured all can not be accessed by youtube with non ADMIN role](img/error.png "secured all")
+![secured all can not be accessed by youtube with non ADMIN role](img/error.PNG "secured all")
